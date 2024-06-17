@@ -1,0 +1,50 @@
+<script type="text/javascript">
+$(function(){
+var currentDate = new Date();
+	
+	$('.datepicker').each(function () {
+        if ($(this).hasClass('hasDatepicker')) {
+            $(this).removeClass('hasDatepicker');
+        } 
+         $(this).datepicker({
+        	 yearRange: '1985:2025',
+	      changeMonth: true,
+	      changeYear: true,
+	      dateFormat: "yy-mm-dd",
+	      autoSize: true
+	    });
+    });
+	
+	$('input[name="enddate"]').datepicker("setDate", currentDate);
+	currentDate.setMonth(currentDate.getMonth() - 1);
+	$('input[name="startdate"]').datepicker("setDate", currentDate);
+	
+});
+
+</script>
+
+<div class="commonDiv" style="padding:10px;">
+	<!--  <a href="#">MIS Reports > </a><a href="#"> Travel Pending Report</a>-->
+</div>
+
+<div class="commonDiv" id="displayTravelPendingReport">
+<form action="ReportView/Travel_Pending_Report.jsp" method="post" target="_new">	
+		<table align="center" width="600px" height="100%" border="1">
+			<tr>
+				<td colspan="2" style="background-color: blue;"><p style="font-size: 24px;background-color: blue;color: white;margin-left: 170px;">Select Pending Travel Date</p></td>
+			</tr>
+			<tr>
+				<td><strong>Start Date</strong></td>
+				<td><input type="text" name="startdate" class="datepicker" readonly></td>
+			</tr>
+			
+			<tr>
+				<td colspan="4" align="center">
+					<p style="margin-left: 250px;">
+						<button type="submit"   class="btn btn-primary" onclick="return TravelDate()">Preview</button>
+					</p>
+				</td>
+		  </tr>
+	</table>
+</form>
+</div>

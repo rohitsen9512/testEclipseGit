@@ -1,0 +1,264 @@
+.active p{
+	color:black;
+}
+.modal-footer{
+	text-align:center;
+	display: initial;
+}
+
+ .commonUL
+{
+	width: 17%;
+}
+
+#rightBodyContent
+{
+	height: 600px;
+	max-height: 600px;
+	
+	/* width: 992px;
+	max-width: 992px; */
+	 width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	overflow: auto;
+}
+
+
+.nav-link.active {
+      background-color: white !important;
+    }
+.card-title1{
+	text-align : center;
+}
+.select2-container {
+width: 100% !important;
+padding: 0;
+}
+.warning{
+	background-color: green;
+}
+.card-small{
+	width: 75%;
+	margin-left: 200px;
+	box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+	margin-bottom: 1rem;
+	flex:1 1 auto;
+	min-height: 1px;
+	padding: 1.25rem;
+	background-color: white;
+	
+}
+.card-body-dash{
+	flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+	display: flex;
+	flex-direction: row;
+	gap:1rem;
+}
+/* .containeritem{
+	 width: auto; 
+	 box-shadow: 0 2px 10px rgb(0 0 0);
+	  margin-top:1.5rem; 
+	  border: 1px solid black;
+	border-radius:.5rem;
+} */
+.dashboardmargin{
+	margin: 1rem 0 0 1rem;
+}
+.dashbpardheader{
+	display: flex;
+	
+	align-items: center;
+	padding:1rem;
+}
+.item1{
+	display:flex;
+	justify-content:space-evenly;
+	align-items: center;
+	gap:1rem;
+}
+.active
+{
+background-color: white;
+}
+.select2-selection--single .select2-selection__rendered {
+padding-left: 0;
+
+height: auto;
+margin-top: -7px !important;
+}
+/* @media(min-width:45rem){
+	.card-body-dash{
+	
+   
+	display: flex;
+	flex-direction: column;
+	
+}
+.containeritem{
+	 width: 98vw; 
+	 box-shadow: 0 2px 10px rgb(0 0 0);
+	  margin-top:20px; 
+	  border: 1px solid black;
+	border-radius:.5rem;
+}
+} */
+	
+/* #menu
+{
+	border: 1px solid gray;
+border-radius: 0px;
+border-bottom-style: none;
+border-top-style: none;
+border-right-style: none;
+} */
+
+.form-control-select{
+	width:200px;
+}
+.error
+{
+	border-color: red !important;
+}
+/* .tableHeader
+{
+	background-color: rgb(255, 255, 255);
+	overflow: auto;
+	padding :0px ! important;
+}
+.tableHeaderContent
+{
+	font-size: 24px;
+	color:white;
+	margin-top: 7px;
+	
+}
+.tableHeader td
+{
+	padding: 5px ! important;
+} */
+.hideButton
+{
+	display : none;
+}
+.message {
+    display: none;
+    border: solid 1px #33CC33; 
+    width: 200px;
+    background-color: #33CC33;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* .makeSmallInputField
+{
+	width : 140px;
+	
+}
+.subHeaderContent
+{
+	font-size: 14px;
+	color:white;
+	margin-top: 7px;	
+	
+}
+
+.InputFieldWidth
+{
+	width: 100px;
+}
+
+.InputFieldWidth1
+{
+	width: 150px;
+}
+
+	 */
+.CommonForBulk{
+	width: 200px;
+}
+
+
+ .sidebar_css{
+box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)!important;
+text-indent: 9px;
+}
+
+
+
+.btn-primary{
+color: #fff;
+background-color: #20c997;
+border-color: #20c997;
+box-shadow: none;
+}
+
+
+
+.sidebar-dark-primary{
+background-color: #3f6791;
+}
+
+
+
+
+.nav-treeview,
+.brd1,
+.btn-sidebar,
+.form-control-sidebar,
+.tbar {
+background-color: #d0d5da !important;  
+}
+
+ .alertlink {
+color: #0000FF !important;
+} 
+
+ a {
+color: rgb(0, 0, 0) !important;
+} 
+
+.user-panel {
+border-bottom: 1px solid #d0d5da !important;
+}
+ .new {
+  background-color:#3f6791;
+  color: white !important;
+ }
+ /*.primary tr{
+ background-color:#3f6791;
+ }*/
+ /*.new1 {
+  background-color:#3f6791;
+  color: white ;
+  text-align : center;
+ }*/
+ /*.tableHeader
+{
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    padding :0px ! important;
+}*/
+
+        .ui-datepicker-prev span.ui-icon,
+        .ui-datepicker-next span.ui-icon {
+            background-image: url("https://cdn0.iconfinder.com/data/icons/flat-round-arrow-arrow-head/512/Red_Arrow_Right-512.png");
+            background-size: contain;
+            background-position: center;
+        }
+        
+        .ui-datepicker-prev span.ui-icon {
+            transform: rotate(180deg);
+        }
+        
+        .ui-datepicker-prev span.ui-icon:focus,
+        .ui-datepicker-next span.ui-icon:focus {
+            outline: none !important;
+        }
+        .navpara{
+       color: white;
+        }
+
+ 

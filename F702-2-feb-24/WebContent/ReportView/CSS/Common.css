@@ -1,0 +1,74 @@
+.commonUL
+{
+	width: 17%;
+}
+#rightBodyContent
+{
+	height: 600px;
+	max-height: 600px;
+	
+	width: 992px;
+	max-width: 992px;
+	overflow: auto;
+}
+.active
+{
+	background-color: #CFCFD1;
+	
+}
+#menu
+{
+	border: 1px solid gray;
+border-radius: 0px;
+border-bottom-style: none;
+border-top-style: none;
+border-right-style: none;
+}
+
+
+.error
+{
+	border-color: red !important;
+}
+.tableHeader
+{
+	background-color: blue;
+	overflow: auto;
+	padding :0px ! important;
+}
+.tableHeaderContent
+{
+	font-size: 24px;
+	color:white;
+	margin-top: 7px;
+	
+}
+.hideButton
+{
+	display : none;
+}
+.message {
+    display: none;
+    border: solid 1px #33CC33; 
+    width: 200px;
+    background-color: #33CC33;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.makeSmallInputField
+{
+	width : 140px;
+	
+}
+.subHeaderContent
+{
+	font-size: 14px;
+	color:white;
+	margin-top: 7px;	
+	
+}
+
+
+
+

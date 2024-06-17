@@ -1,0 +1,76 @@
+#mainMenuDiv
+{
+	height: 30px;
+
+width: 1060px;
+float: right;
+margin-top: -5px;
+min-width: 800px;
+min-height: 30px;
+max-width:1060px;
+overflow: auto;
+
+}
+.mainMenuContent
+{
+	display: inline;
+float: right;
+margin-right: 2px;
+background-color: white;
+border-radius: 10px 10px 0px 0px;
+font-size: 17px;
+padding: 4px 30px 4px 30px;
+min-height: 15px;
+min-width: 15px;
+overflow: auto;
+}
+
+
+
+#header
+{
+	height: 100px;
+background-color: blue;
+min-height: 100px;
+min-width: 1158px;
+overflow: auto;
+}
+#logo
+{
+	height: 75px;
+	background-color: white;
+	width: 200px;
+	
+}
+#adminControle
+{
+	height: 30px;
+width: 600px;
+float: right;
+margin-top: -65px;
+margin-right: 5px;
+}
+.adminInfo
+{
+	color: white;
+font-size: 17px;
+float: right;
+	
+}
+
+				#mainBody
+				{
+					height: 596px;
+					min-height: 596px;
+					min-width: 800px;
+					max-height: 596px;
+					
+					
+					
+				}
+				
+				
+
+
+
+

@@ -1,0 +1,52 @@
+.printClass tr td
+{
+	padding: 0px 0px 0px 3px;
+	margin-left:5px;
+	font-size: smaller;
+}
+.printClass
+{
+	margin-left:15px;
+	width:92%;
+}
+.logoSize
+{
+	height: 50px;
+	vertical-align: top;
+	margin : 5px 1px 1px 1px;
+}
+
+.venname
+{
+
+margin-top: 25px;
+font-size: large;
+color: grey;
+
+}
+
+.prname
+{
+
+margin-top: 30px;
+font-size: large;
+color: grey;
+
+}
+.poname
+{
+
+margin-top: 30px;
+font-size: large;
+color: grey;
+
+}
+.AICname
+{
+
+margin-top: 0px;
+font-size: large;
+color: grey;
+
+
+}
