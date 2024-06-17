@@ -312,7 +312,7 @@
 				<td><input id="nm_hsptl" class="form-control"  type="text" name="nm_hsptl"  value="NA" data-valid="mand" onkeyup="this.value = this.value.toUpperCase();"></td>
 					</tr>
 					<tr>
-					 <td><strong>Hospital Contact No.<font color="red"></font></strong></td>
+					 <td><strong>Hospital/Doctor's Contact No.<font color="red"></font></strong></td>
 				<td><input id="ct_hsptl" class="form-control"  type="text" name="ct_hsptl" value="NA" ></td>
 					
 						
